@@ -52,124 +52,91 @@
   <div class="container">
     <h1>Portfolio</h1>
     <div class="row">
-      <div class="col-sm-12 col-md-6 card-img-fluid" style="background-color: red;">
+      <div class="col-sm-12 col-md-6 card-img-fluid" class ="class-1>
         <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-          <h4 class="card-title" style="z-index: 1;">John Doe</h4>
+          <h4 class="card-title" style="z-index: 1;">Word Guess</h4>
+          <!-- placeholder for different image pre midnight -->
       </div>
       <div class="col-sm-12 col-md-6 card-img-fluid" style="background-color: red;">
         <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-          <h4 class="card-title" style="z-index: 1;">John Doe</h4>
+        <!-- placeholder for different image pre midnight -->
+          <h4 class="card-title" style="z-index: 1;">RPG Game</h4>
       </div>
       <div class="col-sm-12 col-md-6 card-img-fluid" style="background-color: red;">
         <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-          <h4 class="card-title" style="z-index: 1;">John Doe</h4>
+          <h4 class="card-title" style="z-index: 1;">Trivia Game</h4>
+          <!-- placeholder for different image pre midnight -->
       </div>
       <div class=" col-sm-12 col-md-6 card-img-fluid" style="background-color: red;">
         <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-          <h4 class="card-title" style="z-index: 1;">John Doe</h4>
+          <h4 class="card-title" style="z-index: 1;">Info Widget</h4>
+          <!-- placeholder for different image pre midnight -->
       </div>
+
       <div class=" col-sm-12 col-md-6 card-img-fluid" style="background-color: red;">
         <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-          <h4 class="card-title" style="z-index: 1;">John Doe</h4>
+          <h4 class="card-title" style="z-index: 1;">Rock, Paper, Scissors</h4>
+          <!-- placeholder for different image pre midnight -->
       </div>
-      <div class=" col-sm-12 col-md-6 card-img-fluid" style="background-color: red;">
-        <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-        <div class="card-img-overlay-bottom">
-          <h4 class="card-title">John Doe</h4>
+
           <!-- <h4 class="card-title" style="z-index: 1;">John Doe</h4> -->
       </div>
     </div>
 
+    <style></style>
+      .class-1 = {"background: red"}
+    </style>
 
-    <!-- <div class="container">
-      <div class= "row">
-        <div class= "col-lg-4 col-med-12">
-          <div class="card img-fluid" style="width:500px">
-            <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-            <div class="card-img-overlay">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text" style= "background-color: purple;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
-        <div class= "col-lg-4 col-med-12">
-          <div class="card img-fluid" style="width:500px">
-            <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-            <div class="card-img-overlay">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text" style= "background-color: purple;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
-            </div>
-        <div class= "col-lg-4 col-med-12">
-          <div class="card img-fluid" style="width:500px">
-            <img class="card-img-top" src="Slack.jpg" alt="Card image" style="width:100%">
-            <div class="card-img-overlay">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text" style= "background-color: purple;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col"><img src="yourimage"/></div>
-      <div class="col"><img src="yourimage"/></div>
-  </div> -->
-    <!-- <div class="container">
-      <h1>Responsive Columns</h1>
-      <p>Resize the browser window to see the effect.</p>
-      <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
-      <div class="row">
-        <div class="col-lg-6 col-med-12" style="background-color: green;">.col-md-6</div>
-        <div class="col-lg-6 col-med-12" style="background-color:greenyellow;">.col-md-6</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-med-12" style="background-color:lavender;">.col-sm-3</div>
-        <div class="col-lg-6 col-med-12" style="background-color:lavenderblush;">.col-sm-3</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-med-12" style="background-color:blue;">.col-xs-12</div>
-        <div class="col-lg-6 col-med-12" style="background-color:crimson;">.col-xs-12</div>
-      </div>  
-      </div>
-    </div>
+    <div class="container-fluid">
+      <div class="login-form col-sm-12">
+        <!-- figure out offset-sm -->
+        <h2 class = "Title">Contact</h2>
+        <hr>
+        <form action= " " class= "main-form needs-validation" novalidate>
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="exampleName" placeholder="John Smith"  required>
+            <div class="invalid-feedback">Please enter your name</div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="exampleEmail1" placeholder="example@gmail.com"  required>
+          <div class="invalid-feedback">Please include valid email address</div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea></div>
+        <button type="submit" class="btn m-3 px-4">Submit</button>
+        </form>
 
-    <div class="col-md-6 col-sm-6 col-xs-12" style="background-color:lavender;">.col-sm-3</div>
-    <div class="container">
-      <h2>Cards Columns</h2>
-      <p>The .card-columns class creates a masonry-like grid of cards. The layout will automatically adjust as you insert more cards.</p>
-      <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
-      <div class="card-columns">
-        <div class="card bg-primary">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the first card</p>
-          </div>
+        <style>
+          .Title {
+            background:#ffffff;
+            padding: 0%;
+            text-align: left;
+            color:#59AAA5;
+            font-family:'PT Serif', serif;
+            margin-bottom: 0;
+            margin-top:5;
+            }
+          .login-form {
+            margin-top: 50px;
+            border-radius: 0px;e
+            padding-bottom: 20px;
+            background: white;
+            width: 50%;
+            object-position: left;
+            color: grey;
+            }
+          .btn {
+            background-color: #59AAA5;
+            color: white;
+            border-radius: 0;
+          }
+    
+  
         </div>
-        <div class="card bg-warning">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the second card</p>
-          </div>
-        </div>
-        <div class="card bg-success">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the third card</p>
-          </div>
-        </div>
-        <div class="card bg-danger">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the fourth card</p>
-          </div>
-        </div>  
-        <div class="card bg-light">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the fifth card</p>
-          </div>
-        </div>
-        <div class="card bg-info">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the sixth card</p>
-          </div>
-        </div>
-      </div>
     </div>
-     -->
+    <!-- failing spectacularly at formating this -->
 
     </body>
     </html>
