@@ -8,66 +8,125 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Contact</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light " style="font-family: 'Times New Roman', Times, serif;">
+    <nav class="navbar navbar-expand-sm navbar-light ">
       <div class="container">
-        <a class="navbar-brand p-2 m-1 text-white" style="background-color: #59AAA5;" href="index.html">Hannah Smith</a>
+        <a class="navbar-brand text-white h-100 d-inline-block" style="" href="index.html">Hannah Smith</a>
       </div>
       <div class=" navbar navbar-expand-sm text-secondary ml-auto d-flex align-content-lg-center ">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" style="font-family: sans-serif;">
           <li><a href="index.html" class="nav-link">About</a>
           <li><a href="portfolio.html" class="nav-link">Portfolio</a>
           <li><a href="contact.html" class="nav-link">Contact</a>
           </li>
+          <hr class="my-4">
         </ul> 
       </div>
     </nav>
+  
 
-    <!-- <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form> -->
 
-    <div class="container p-5">
-      <div class="row">
-          <div class="col-sm-12">
-            <form>
-              <div class="form-group">
-                <h3 class="card-title">Card title</h3>
-                <label for="exampleName">Name</label>
-                <input type="text" class="form-control" id="exampleName" placeholder="John Smith">
-              </div>
-              <div class="form-group">
-                <label for="exampleEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-              </div>
-              <button type="submit" class="btn" style="background-color: #59AAA5;;">Submit</button>
-            </form>
-          </div>
+  <div class="container">
+    <div class="login-form col-sm-12 offset-sm-12">
+      <h1 class = "Title">Contact Form</h1>
+      <hr>
+      <form action= " " class= "main-form needs-validation" novalidate>
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input type="text" class="form-control" id="exampleName" placeholder="John Smith"  required>
+          <div class="invalid-feedback">Please enter your name</div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="exampleEmail1" placeholder="example@gmail.com"  required>
+        <div class="invalid-feedback">Please include valid email address</div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea></div>
+      <button type="submit" class="btn p-2 m-1" style="background-color: #59AAA5;">Submit</button>
+      </form>
+
       </div>
   </div>
 
-    <!-- copy header text from index -->
+  <!-- <div class = "container">
+    <div class="login-form col-sm-12 offset-sm-12">
+        <h1 class="Title"> Contact Form</h1>
+        <hr>
+        <form>
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="exampleName" placeholder="John Smith"  required>
+            <div class="invalid-feedback">Please enter your name</div>
+          <div class="form-group">
+                <label>password</label>
+                <input type="text" name="form-control">
+            </div>
+            <div class="form-group">
+                <label>address</label>
+                <input type="text" name="form-control">
+            </div>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="form-control">
+            </div>
 
-    
+
+        </form>
+
+    </div>
+</div> -->
+<!-- <style>
+    .login-form {
+        margin-top: 10%;
+        box-shadow: violet;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        background: white;
+        width: 40%;
+    }
+</style> -->
+
+ 
+ 
+    <style>
+        body{
+            background-color:#E3E3E3;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: #ffffff;
+        }
+
+        .navbar-brand {
+          height: 100%;
+          background-color: #59AAA5;
+          text-align: center;
+          font-size: 40px;
+          padding: 0%;
+          border: 0%;
+          margin: 0%;
+          border:  #59AAA5 ;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .Title {
+            background:purple;
+            padding: 0%;
+            text-align: left;
+            color:yellow;
+        }
+        .login-form {
+        margin-top: 50px;
+        box-shadow: violet;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        background: white;
+        width: 40%;
+        object-position: left;
+    }
+
+    </style>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

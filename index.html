@@ -11,23 +11,88 @@
     <title>About Me!</title>
   </head>
   <body>
+    <style>
+      body{
+          background-color:#E3E3E3;
+          background-size: cover;
+      }
+      .navbar {
+          background-color: #ffffff;
+      }
 
-    <nav class="navbar navbar-expand-sm navbar-light " style="font-family: 'Times New Roman', Times, serif;">
-      <div class="container">
-        <a class="navbar-brand p-2 m-1 text-white" style="background-color: #59AAA5;" href="index.html">Hannah Smith</a>
+      .navbar-brand {
+        height: 100%;
+        background-color: #59AAA5;
+        text-align: center;
+        font-size: 40px;
+        padding: 0%;
+        border: 0%;
+        margin: 0%;
+        border:  #59AAA5 ;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .Title {
+          background:purple;
+          padding: 0%;
+          text-align: left;
+          color:yellow;
+      }
+      .login-form {
+      margin-top: 50px;
+      box-shadow: violet;
+      border-radius: 5px;
+      padding-bottom: 20px;
+      background: white;
+      width: 40%;
+      object-position: left;
+  }
+
+  </style>
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light ">
+    <div class="container">
+      <a class="navbar-brand text-white h-100 d-inline-block" style="" href="index.html">Hannah Smith</a>
+    </div>
+    <div class=" navbar navbar-expand-sm text-secondary ml-auto d-flex align-content-lg-center ">
+      <ul class="navbar-nav" style="font-family: sans-serif;">
+        <li><a href="index.html" class="nav-link">About</a>
+        <li><a href="portfolio.html" class="nav-link">Portfolio</a>
+        <li><a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <hr class="my-4">
+      </ul> 
+    </div>
+  </nav>
+
+    <style>
+      .container{
+        padding-top: 50px;
+      }
+    </style>
+        
+        
+        <div class="container" style="width: 40%; border: 1px solid #cecece;">
+          <div class="page-header">
+              <h1>About Me</h1>
+              <hr>
+          <article class="row single-post no-gutters">
+              <div class="col-md-12">
+                  <div class="image-wrapper float-left pr-3">
+                      <img src="Slack.jpg" alt="" class="img-fluid img-thumbnail "> 
+                  </div>
+                  <div class="single-post-content-wrapper">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                      <!-- <br><br> -->
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                  </div>
+              </div>
+          </article>
       </div>
-      <div class=" navbar navbar-expand-sm text-secondary ml-auto d-flex align-content-lg-center ">
-        <ul class="navbar-nav">
-          <li><a href="index.html" class="nav-link">About</a>
-          <li><a href="portfolio.html" class="nav-link">Portfolio</a>
-          <li><a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul> 
-      </div>
-    </nav>
-
-
-
+    
+   
           <!-- Commenting out sticky bottom -->
           <!-- <nav class="navbar sticky-bottom navbar-light bg-light">
             <a class="navbar-brand" href="#">Sticky sticky-bottom</a>
