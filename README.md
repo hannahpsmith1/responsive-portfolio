@@ -11,13 +11,30 @@ ___
 ## Cool Code! 
 
 ```
-    <div class="hero">
-        <span role="img" aria-label="Business People"> </span>
-            </div>
-            <!-- adding aria-label as a workaround for an alt tag for background image -->
+        <div class="container" style=" border: 1px solid #cecece;">
+          <div class="col-sm-12 offset-sm-0 "></div>
+          <div class="page-header">
+              <div class="header"><h2>About Me</h2></div>
+              <hr>
+          <article class="row single-post no-gutters">
+              <div class="offset-sm-0">
+                  <div class="image-wrapper float-left pl-2 pr-3">
+                      <img src="Slack.jpg" alt="" class="img-fluid img-thumbnail "width="304" height="236">
+                  </div>
+                  <div class="single-post-content-wrapper">
+                      <p>Hi, my name is Hannah Smith.  I am originally from the east coast.  I am from a small town in North East Connecticut, called Torrington.  It is most famous for being the birth place of John Brown the famous abolitionist. 
+                        I got my bachelors degree in Geology from Rensselaer Polytechnic Institute.  After that I worked in Oil and Gas in Midland, Texas from 2013 to spring 2015.  In the Spring of 2015 oil crashed and I transitioned into the tech sector.
+                        I have since worked at Apple maps as both a map digitizer and in IT as a technical support engineer.  Most recently I was working as a QA and documentation engineer at a construction startup in Menlo Park, California, but was laid off due to Covid-19.
+                        <br><br>
+                        Pre-Covid, my hobbies included hiking and backpacking.  I also enjoy scuba diving.  The best spot I have been scuba diving in the world has been The Maldives in 2014.  
+                      </p>
+                  </div>
+              </div>
+          </article>
+      </div>
 ```
 
-<p> While trying to find a way to add alt text to the background image of the site, I came across an option to add aria-label to the html so it will be read by a screen reader, but while also not requiring a change to the css. The role of aria-label is that it will automatically be read by screen readers, essentially filling in an empty html element so it will work as alt text for a background image. Reference sited below. 
+<p> I got a portion of this code from stack overflow (see source 5 below) which was from bootstrap 4 on wrapping text around an image.  I was able to augment it to be able to wrap the image and content dynamically.  I had to add a header and sizing as well as change the paragraphs to be p tags (so they could be manipulated with styling) and define the dimensions of the image.
 
 
 
@@ -40,7 +57,7 @@ ___
 ---
 
 ## Installation
-<p>Execute the following commands in Terminal: 
+<p>Execute the following commands in  (Or Gitbash): 
 
 1. ls 
 2. mkdir responsive-portfolio
@@ -56,7 +73,7 @@ Within terminal there are several shortcuts you can take to auto-fill values whi
 ---
 
 ### Installation GIF for visual reference
-<b> Important to note, this is a generic example, not specific to this repository <b>
+<b> Important to note, this is a generic example, not specific to this repository (originally referenced in homework 1)<b>
 
 ![Install_Repo](https://user-images.githubusercontent.com/59800839/84457296-2bf62b80-ac17-11ea-9da2-f61f7d13522f.gif)
 
@@ -66,9 +83,9 @@ Within terminal there are several shortcuts you can take to auto-fill values whi
 ## Built With
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[Bootstrap](https://getbootstrap.com/)
 
-[Bootstrap] (https://getbootstrap.com/)
+[CSS styling within bootstrap](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ---
 
@@ -90,6 +107,7 @@ Within terminal there are several shortcuts you can take to auto-fill values whi
 2. [Get Bootstrap](https://getbootstrap.com) The documentation here was a huge help to me 
 3. [w3 schools](https://www.w3schools.com/) This site was my go to when poking around the internet to find things like semantic HTML
 4. [Academind](https://www.youtube.com/watch?v=qmPmwdshCMw) This video series really helped me understand better how the Bootstrap grid system worked. 
+5. [Stack Overflow](https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float) to be able to wrap the tag on the index
 
 
 
