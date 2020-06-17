@@ -7,9 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 
     <title>Contact</title>
-  </head>
+   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light ">
       <div class="container">
@@ -48,7 +49,7 @@
         margin-top: 0px;
         margin-bottom: 0px;
         border-color: #59AAA5;
-        font-family: 'Times New Roman', Times, serif;
+        font-family:'PT Serif', serif;;
       }
 
   </style>
@@ -56,9 +57,11 @@
   
 
 
+  <!-- This is the code for the form -->
   <div class="container">
-    <div class="login-form col-sm-12 offset-sm-12">
-      <h1 class = "Title">Contact Form</h1>
+    <div class="login-form col-sm-12 offset-sm-3">
+      <!-- figure out offset-sm -->
+      <h1 class = "Title">Contact</h1>
       <hr>
       <form action= " " class= "main-form needs-validation" novalidate>
         <div class="form-group">
@@ -78,76 +81,23 @@
       </div>
   </div>
 
-  <!-- <div class = "container">
-    <div class="login-form col-sm-12 offset-sm-12">
-        <h1 class="Title"> Contact Form</h1>
-        <hr>
-        <form>
-          <div class="form-group">
-            <label for="Name">Name</label>
-            <input type="text" class="form-control" id="exampleName" placeholder="John Smith"  required>
-            <div class="invalid-feedback">Please enter your name</div>
-          <div class="form-group">
-                <label>password</label>
-                <input type="text" name="form-control">
-            </div>
-            <div class="form-group">
-                <label>address</label>
-                <input type="text" name="form-control">
-            </div>
-            <div class="form-group">
-                <label>Username</label>
-                <input type="text" name="form-control">
-            </div>
-
-
-        </form>
-
-    </div>
-</div> -->
-<!-- <style>
-    .login-form {
-        margin-top: 10%;
-        box-shadow: violet;
-        border-radius: 5px;
-        padding-bottom: 20px;
-        background: white;
-        width: 40%;
-    }
-</style> -->
-
- 
- 
+ <!-- This is the styling for the form -->
     <style>
         body{
             background-color:#E3E3E3;
             background-size: cover;
         }
-        .navbar {
-            background-color: #ffffff;
-        }
-
-        .navbar-brand {
-          height: 100%;
-          background-color: #59AAA5;
-          text-align: center;
-          font-size: 40px;
-          padding: 0%;
-          border: 0%;
-          margin: 0%;
-          border:  #59AAA5 ;
-          font-family: 'Times New Roman', Times, serif;
-        }
         .Title {
-            background:purple;
+            background:#ffffff;
             padding: 0%;
             text-align: left;
-            color:yellow;
+            color:#59AAA5;
+            font-family:'PT Serif', serif;;
         }
         .login-form {
         margin-top: 50px;
         box-shadow: violet;
-        border-radius: 5px;
+        border-radius: 0px;
         padding-bottom: 20px;
         background: white;
         width: 40%;
