@@ -13,8 +13,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light ">
-      <div class="container">
-        <a class="navbar-brand text-white h-100 d-inline-block" style="" href="index.html">Hannah Smith</a>
+        <a class="navbar-brand text-white h-100 d-inline-block" href="index.html">Hannah Smith</a>
       </div>
       <div class=" navbar navbar-expand-sm text-secondary ml-auto d-flex align-content-lg-center ">
         <ul class="navbar-nav" style="font-family: sans-serif;">
@@ -57,13 +56,14 @@
 
         
         
-        <div class="container" style="width: 40%; border: 1px solid #cecece;">
+        <div class="container" style=" border: 1px solid #cecece;">
+          <div class="offset-md-6 offset-sm-12 "></div>
           <div class="page-header">
-              <h1>About Me</h1>
+              <div class="header"><h2>About Me</h2></div>
               <hr>
           <article class="row single-post no-gutters">
               <div class="col-md-12">
-                  <div class="image-wrapper float-left pr-3">
+                  <div class="image-wrapper float-left pl-2 pr-3">
                       <img src="Slack.jpg" alt="" class="img-fluid img-thumbnail "width="304" height="236">
                   </div>
                   <div class="single-post-content-wrapper">
@@ -79,17 +79,32 @@
       </div>
 
       <style>
-        .containger{
-          padding-top: 10%;
+        .container{
+          padding-top: 0%;
+          margin-top: 5%;
+          padding-left: 0%;
+          padding-right:0%;
+          width: 40%;
+          margin-bottom: 5%;
+        
         }
         .page-header {
           font-family:'PT Serif', serif;;
           color: #59AAA5;
-          padding-top: 10%;
+          padding-top: 0%;
+          background-color: #ffffff;
+          padding-left: 0;
+          margin-bottom: 0 !important
 
         }
         .single-post-content-wrapper {
-          color:black;
+          color:darkgrey;
+          font-family: sans-serif;
+        }
+
+        .header{
+          vertical-align: center;
+          
         }
 
       </style>
